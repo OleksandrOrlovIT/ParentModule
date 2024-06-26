@@ -106,10 +106,10 @@ services:
   spring-boot-app-2:
     container_name: city_country_email_sender
     build:
-      context: ./CityCountryEmailSender
+      context: CityCountryEmailSenderV2
       dockerfile: Dockerfile
     env_file:
-      - ./CityCountryEmailSender/.env
+      - CityCountryEmailSenderV2/.env
     depends_on:
       elasticsearch:
         condition: service_healthy
