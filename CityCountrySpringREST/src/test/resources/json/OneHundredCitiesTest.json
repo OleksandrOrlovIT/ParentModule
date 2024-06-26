@@ -1,0 +1,280 @@
+[
+  {
+    "cityName": "New York City",
+    "countryId": 2,
+    "cityPopulation": 8537673,
+    "cityArea": 468.9,
+    "foundedAt": "1624",
+    "languages": "English"
+  },
+  {
+    "cityName": "Los Angeles",
+    "countryId": 2,
+    "cityPopulation": 3979576,
+    "cityArea": 1302,
+    "foundedAt": "1781",
+    "languages": "English, Spanish"
+  },
+  {
+    "cityName": "Chicago",
+    "countryId": 2,
+    "cityPopulation": 2693976,
+    "cityArea": 606.1,
+    "foundedAt": "1833",
+    "languages": "English"
+  },
+  {
+    "cityName": "Houston",
+    "countryId": 2,
+    "cityPopulation": 2320268,
+    "cityArea": 1659.7,
+    "foundedAt": "1837",
+    "languages": "English, Spanish"
+  },
+  {
+    "cityName": "Phoenix",
+    "countryId": 2,
+    "cityPopulation": 1680992,
+    "cityArea": 1340.6,
+    "foundedAt": "1868",
+    "languages": "English"
+  },
+  {
+    "cityName": "Philadelphia",
+    "countryId": 2,
+    "cityPopulation": 1584064,
+    "cityArea": 369.4,
+    "foundedAt": "1682",
+    "languages": "English"
+  },
+  {
+    "cityName": "San Antonio",
+    "countryId": 2,
+    "cityPopulation": 1547253,
+    "cityArea": 1052.6,
+    "foundedAt": "1718",
+    "languages": "English, Spanish"
+  },
+  {
+    "cityName": "San Diego",
+    "countryId": 2,
+    "cityPopulation": 1425976,
+    "cityArea": 964.5,
+    "foundedAt": "1769",
+    "languages": "English, Spanish"
+  },
+  {
+    "cityName": "Dallas",
+    "countryId": 2,
+    "cityPopulation": 1343573,
+    "cityArea": 999.3,
+    "foundedAt": "1841",
+    "languages": "English, Spanish"
+  },
+  {
+    "cityName": "San Jose",
+    "countryId": 2,
+    "cityPopulation": 1030119,
+    "cityArea": 461.5,
+    "foundedAt": "1777",
+    "languages": "English, Spanish"
+  },
+  {
+    "cityName": "Austin",
+    "countryId": 2,
+    "cityPopulation": 964254,
+    "cityArea": 822.8,
+    "foundedAt": "1839",
+    "languages": "English, Spanish"
+  },
+  {
+    "cityName": "Jacksonville",
+    "countryId": 2,
+    "cityPopulation": 903889,
+    "cityArea": 874.6,
+    "foundedAt": "1822",
+    "languages": "English"
+  },
+  {
+    "cityName": "Fort Worth",
+    "countryId": 2,
+    "cityPopulation": 895008,
+    "cityArea": 906.3,
+    "foundedAt": "1849",
+    "languages": "English, Spanish"
+  },
+  {
+    "cityName": "Columbus",
+    "countryId": 2,
+    "cityPopulation": 892533,
+    "cityArea": 575.2,
+    "foundedAt": "1812",
+    "languages": "English"
+  },
+  {
+    "cityName": "Charlotte",
+    "countryId": 2,
+    "cityPopulation": 872498,
+    "cityArea": 791,
+    "foundedAt": "1768",
+    "languages": "English"
+  },
+  {
+    "cityName": "San Francisco",
+    "countryId": 2,
+    "cityPopulation": 870887,
+    "cityArea": 600.6,
+    "foundedAt": "1776",
+    "languages": "English, Spanish, Chinese"
+  },
+  {
+    "cityName": "Indianapolis",
+    "countryId": 2,
+    "cityPopulation": 867125,
+    "cityArea": 936.3,
+    "foundedAt": "1821",
+    "languages": "English"
+  },
+  {
+    "cityName": "Seattle",
+    "countryId": 2,
+    "cityPopulation": 744955,
+    "cityArea": 217.2,
+    "foundedAt": "1851",
+    "languages": "English"
+  },
+  {
+    "cityName": "Denver",
+    "countryId": 2,
+    "cityPopulation": 716492,
+    "cityArea": 153.3,
+    "foundedAt": "1858",
+    "languages": "English"
+  },
+  {
+    "cityName": "Washington",
+    "countryId": 2,
+    "cityPopulation": 715040,
+    "cityArea": 177.0,
+    "foundedAt": "1790",
+    "languages": "English"
+  },
+  {
+    "cityName": "Boston",
+    "countryId": 2,
+    "cityPopulation": 694583,
+    "cityArea": 125.1,
+    "foundedAt": "1630",
+    "languages": "English"
+  },
+  {
+    "cityName": "Nashville",
+    "countryId": 2,
+    "cityPopulation": 689447,
+    "cityArea": 1309,
+    "foundedAt": "1779",
+    "languages": "English"
+  },
+  {
+    "cityName": "Las Vegas",
+    "countryId": 2,
+    "cityPopulation": 670602,
+    "cityArea": 352,
+    "foundedAt": "1905",
+    "languages": "English, Spanish"
+  },
+  {
+    "cityName": "Detroit",
+    "countryId": 2,
+    "cityPopulation": 662172,
+    "cityArea": 370.2,
+    "foundedAt": "1701",
+    "languages": "English"
+  },
+  {
+    "cityName": "Oklahoma City",
+    "countryId": 2,
+    "cityPopulation": 655057,
+    "cityArea": 1570.3,
+    "foundedAt": "1889",
+    "languages": "English"
+  },
+
+  { "cityName": "Kyiv", "countryId": 1, "cityPopulation": 2884000, "cityArea": 839, "foundedAt": "482", "languages": "Ukrainian, English"},
+  { "cityName": "Kharkiv", "countryId": 1, "cityPopulation": 1431000, "cityArea": 350, "foundedAt": "1654", "languages": "Ukrainian, English"},
+  { "cityName": "Odesa", "countryId": 1, "cityPopulation": 1015000, "cityArea": 236, "foundedAt": "1794", "languages": "Ukrainian, English"},
+  { "cityName": "Dnipro", "countryId": 1, "cityPopulation": 1000000, "cityArea": 405, "foundedAt": "1776", "languages": "Ukrainian, English"},
+  { "cityName": "Lviv", "countryId": 1, "cityPopulation": 723000, "cityArea": 182, "foundedAt": "1256", "languages": "Ukrainian, English"},
+  { "cityName": "Zaporizhzhia", "countryId": 1, "cityPopulation": 709000, "cityArea": 334, "foundedAt": "952", "languages": "Ukrainian, English"},
+  { "cityName": "Kryvyi Rih", "countryId": 1, "cityPopulation": 636000, "cityArea": 422, "foundedAt": "1775", "languages": "Ukrainian, English"},
+  { "cityName": "Mykolaiv", "countryId": 1, "cityPopulation": 491000, "cityArea": 260, "foundedAt": "1789", "languages": "Ukrainian, English"},
+  { "cityName": "Mariupol", "countryId": 1, "cityPopulation": 443000, "cityArea": 452, "foundedAt": "1778", "languages": "Ukrainian, English"},
+  { "cityName": "Luhansk", "countryId": 1, "cityPopulation": 419000, "cityArea": 285, "foundedAt": "1795", "languages": "Ukrainian, English"},
+  { "cityName": "Vinnytsia", "countryId": 1, "cityPopulation": 370000, "cityArea": 61, "foundedAt": "1363", "languages": "Ukrainian, English"},
+  { "cityName": "Makiivka", "countryId": 1, "cityPopulation": 364000, "cityArea": 149, "foundedAt": "1700", "languages": "Ukrainian, English"},
+  { "cityName": "Sevastopol", "countryId": 1, "cityPopulation": 343000, "cityArea": 864, "foundedAt": "1783", "languages": "Ukrainian, English"},
+  { "cityName": "Simferopol", "countryId": 1, "cityPopulation": 339000, "cityArea": 107, "foundedAt": "1784", "languages": "Ukrainian, English"},
+  { "cityName": "Kherson", "countryId": 1, "cityPopulation": 298000, "cityArea": 50, "foundedAt": "1778", "languages": "Ukrainian, English"},
+  { "cityName": "Poltava", "countryId": 1, "cityPopulation": 293000, "cityArea": 145, "foundedAt": "899", "languages": "Ukrainian, English"},
+  { "cityName": "Chernihiv", "countryId": 1, "cityPopulation": 287000, "cityArea": 79, "foundedAt": "907", "languages": "Ukrainian, English"},
+  { "cityName": "Cherkasy", "countryId": 1, "cityPopulation": 284000, "cityArea": 69, "foundedAt": "1286", "languages": "Ukrainian, English"},
+  { "cityName": "Sumy", "countryId": 1, "cityPopulation": 270000, "cityArea": 79, "foundedAt": "1652", "languages": "Ukrainian, English"},
+  { "cityName": "Zhytomyr", "countryId": 1, "cityPopulation": 265000, "cityArea": 63, "foundedAt": "884", "languages": "Ukrainian, English"},
+  { "cityName": "Rivne", "countryId": 1, "cityPopulation": 250000, "cityArea": 63, "foundedAt": "1283", "languages": "Ukrainian, English"},
+  { "cityName": "Ternopil", "countryId": 1, "cityPopulation": 218022, "cityArea": 72, "foundedAt": "1540", "languages": "Ukrainian, English"},
+  { "cityName": "Kolomiya", "countryId": 1, "cityPopulation": 62262, "cityArea": 40, "foundedAt": "1240", "languages": "Ukrainian, English"},
+  { "cityName": "Chernivtsi", "countryId": 1, "cityPopulation": 252735, "cityArea": 153, "foundedAt": "1408", "languages": "Ukrainian, English"},
+  { "cityName": "Irpin", "countryId": 1, "cityPopulation": 60084, "cityArea": 110, "foundedAt": "1899", "languages": "Ukrainian, English"},
+
+  { "cityName": "Berlin", "countryId": 3, "cityPopulation": 3769495, "cityArea": 891.8, "foundedAt": "1237", "languages": "German, English"},
+  { "cityName": "Hamburg", "countryId": 3, "cityPopulation": 1841179, "cityArea": 755.2, "foundedAt": "808", "languages": "German, English"},
+  { "cityName": "Munich", "countryId": 3, "cityPopulation": 1471508, "cityArea": 310.4, "foundedAt": "1158", "languages": "German, English"},
+  { "cityName": "Cologne", "countryId": 3, "cityPopulation": 1087863, "cityArea": 405.2, "foundedAt": "50", "languages": "German, English"},
+  { "cityName": "Frankfurt", "countryId": 3, "cityPopulation": 753056, "cityArea": 248.3, "foundedAt": "794", "languages": "German, English"},
+  { "cityName": "Stuttgart", "countryId": 3, "cityPopulation": 634830, "cityArea": 207.4, "foundedAt": "-950", "languages": "German, English"},
+  { "cityName": "Düsseldorf", "countryId": 3, "cityPopulation": 619294, "cityArea": 217.4, "foundedAt": "1135", "languages": "German, English"},
+  { "cityName": "Dortmund", "countryId": 3, "cityPopulation": 586181, "cityArea": 280.7, "foundedAt": "882", "languages": "German, English"},
+  { "cityName": "Essen", "countryId": 3, "cityPopulation": 583109, "cityArea": 210.3, "foundedAt": "845", "languages": "German, English"},
+  { "cityName": "Leipzig", "countryId": 3, "cityPopulation": 587857, "cityArea": 297.6, "foundedAt": "1015", "languages": "German, English"},
+  { "cityName": "Bremen", "countryId": 3, "cityPopulation": 569352, "cityArea": 325.6, "foundedAt": "787", "languages": "German, English"},
+  { "cityName": "Dresden", "countryId": 3, "cityPopulation": 554649, "cityArea": 328.3, "foundedAt": "1206", "languages": "German, English"},
+  { "cityName": "Hanover", "countryId": 3, "cityPopulation": 538068, "cityArea": 204.1, "foundedAt": "1241", "languages": "German, English"},
+  { "cityName": "Nuremberg", "countryId": 3, "cityPopulation": 518365, "cityArea": 186.5, "foundedAt": "1050", "languages": "German, English"},
+  { "cityName": "Duisburg", "countryId": 3, "cityPopulation": 498683, "cityArea": 232.8, "foundedAt": "883", "languages": "German, English"},
+  { "cityName": "Bochum", "countryId": 3, "cityPopulation": 365587, "cityArea": 145.7, "foundedAt": "1041", "languages": "German, English"},
+  { "cityName": "Wuppertal", "countryId": 3, "cityPopulation": 354382, "cityArea": 168.4, "foundedAt": "1929", "languages": "German, English"},
+  { "cityName": "Bielefeld", "countryId": 3, "cityPopulation": 333786, "cityArea": 258.8, "foundedAt": "1214", "languages": "German, English"},
+  { "cityName": "Bonn", "countryId": 3, "cityPopulation": 328125, "cityArea": 141.1, "foundedAt": "-100", "languages": "German, English"},
+  { "cityName": "Münster", "countryId": 3, "cityPopulation": 315293, "cityArea": 302.9, "foundedAt": "793", "languages": "German, English"},
+  { "cityName": "Karlsruhe", "countryId": 3, "cityPopulation": 312676, "cityArea": 173.46, "foundedAt": "1715", "languages": "German, English"},
+  { "cityName": "Mannheim", "countryId": 3, "cityPopulation": 309370, "cityArea": 144.96, "foundedAt": "1607", "languages": "German, English"},
+  { "cityName": "Augsburg", "countryId": 3, "cityPopulation": 295135, "cityArea": 146.8, "foundedAt": "-15", "languages": "German, English"},
+  { "cityName": "Wiesbaden", "countryId": 3, "cityPopulation": 274781, "cityArea": 203.9, "foundedAt": "1215", "languages": "German, English"},
+  { "cityName": "Gelsenkirchen", "countryId": 3, "cityPopulation": 260654, "cityArea": 104.9, "foundedAt": "1850", "languages": "German, English"},
+
+  { "cityName": "Paris", "countryId": 4, "cityPopulation": 2148000, "cityArea": 105.4, "foundedAt": "-250", "languages": "French"},
+  { "cityName": "Marseille", "countryId": 4, "cityPopulation": 870018, "cityArea": 240.62, "foundedAt": "-600", "languages": "French"},
+  { "cityName": "Lyon", "countryId": 4, "cityPopulation": 516092, "cityArea": 47.87, "foundedAt": "-43", "languages": "French"},
+  { "cityName": "Toulouse", "countryId": 4, "cityPopulation": 479553, "cityArea": 118.3, "foundedAt": "-118", "languages": "French"},
+  { "cityName": "Nice", "countryId": 4, "cityPopulation": 342295, "cityArea": 71.92, "foundedAt": "-350", "languages": "French"},
+  { "cityName": "Nantes", "countryId": 4, "cityPopulation": 309346, "cityArea": 65.19, "foundedAt": "374", "languages": "French"},
+  { "cityName": "Strasbourg", "countryId": 4, "cityPopulation": 280966, "cityArea": 78.26, "foundedAt": "-12", "languages": "French"},
+  { "cityName": "Montpellier", "countryId": 4, "cityPopulation": 281613, "cityArea": 56.88, "foundedAt": "1220", "languages": "French"},
+  { "cityName": "Bordeaux", "countryId": 4, "cityPopulation": 257068, "cityArea": 49.36, "foundedAt": "1462", "languages": "French"},
+  { "cityName": "Lille", "countryId": 4, "cityPopulation": 232787, "cityArea": 34.52, "foundedAt": "640", "languages": "French"},
+  { "cityName": "Rennes", "countryId": 4, "cityPopulation": 217728, "cityArea": 50.39, "foundedAt": "-200", "languages": "French"},
+  { "cityName": "Reims", "countryId": 4, "cityPopulation": 182592, "cityArea": 47.46, "foundedAt": "-80", "languages": "French"},
+  { "cityName": "Le Havre", "countryId": 4, "cityPopulation": 170147, "cityArea": 45.65, "foundedAt": "1517", "languages": "French"},
+  { "cityName": "Saint-Étienne", "countryId": 4, "cityPopulation": 171260, "cityArea": 79.97, "foundedAt": "1816", "languages": "French"},
+  { "cityName": "Toulon", "countryId": 4, "cityPopulation": 171953, "cityArea": 42.84, "foundedAt": "-600", "languages": "French"},
+  { "cityName": "Grenoble", "countryId": 4, "cityPopulation": 160649, "cityArea": 18.13, "foundedAt": "-43", "languages": "French"},
+  { "cityName": "Dijon", "countryId": 4, "cityPopulation": 153701, "cityArea": 40.41, "foundedAt": "-600", "languages": "French"},
+  { "cityName": "Angers", "countryId": 4, "cityPopulation": 152923, "cityArea": 42.70, "foundedAt": "-300", "languages": "French"},
+  { "cityName": "Nîmes", "countryId": 4, "cityPopulation": 151075, "cityArea": 161.85, "foundedAt": "-600", "languages": "French"},
+  { "cityName": "Villeurbanne", "countryId": 4, "cityPopulation": 151115, "cityArea": 14.52, "foundedAt": "-500", "languages": "French"},
+  { "cityName": "Clermont-Ferrand", "countryId": 4, "cityPopulation": 141569, "cityArea": 42.67, "foundedAt": "-100", "languages": "French"},
+  { "cityName": "Le Mans", "countryId": 4, "cityPopulation": 144548, "cityArea": 52.81, "foundedAt": "-100", "languages": "French"},
+  { "cityName": "Aix-en-Provence", "countryId": 4, "cityPopulation": 143767, "cityArea": 186.08, "foundedAt": "-123", "languages": "French"},
+  { "cityName": "Brest", "countryId": 4, "cityPopulation": 139163, "cityArea": 49.51, "foundedAt": "-300", "languages": "French"},
+  { "cityName": "Limoges", "countryId": 4, "cityPopulation": 133627, "cityArea": 77.45, "foundedAt": "-100", "languages": "French"}
+]

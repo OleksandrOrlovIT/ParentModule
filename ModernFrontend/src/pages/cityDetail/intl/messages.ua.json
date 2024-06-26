@@ -1,0 +1,19 @@
+{
+  "title": "Сторінка Деталей Міста",
+  "cityNameField": "Назва Міста",
+  "cityIdField": "ІД",
+  "countryIdField": "Ідентифікатор Країни",
+  "populationField": "Населення Міста",
+  "areaField": "Площа Міста",
+  "foundedAtField": "Дата Заснування Міста",
+  "languagesField": "Мови Міста",
+  "returnButton": "ПОВЕРНУТИСЯ",
+  "saveButton": "ЗБЕРЕГТИ",
+  "cancelButton": "ВІДМІНИТИ",
+  "cityNameError": "Назва Міста не може бути порожньою.",
+  "countryIdError": "Ідентифікатор Країни повинен бути числом і більше 0.",
+  "cityPopulationError": "Населення повинно бути числом і більше 0.",
+  "cityAreaError": "Площа повинна бути числом і більше 0.",
+  "foundedAtError": "Дата Заснування повинна бути числом.",
+  "languagesError": "Мови повинні бути переліком мов, розділеними комою з пробілом."
+}

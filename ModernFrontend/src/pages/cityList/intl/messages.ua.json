@@ -1,0 +1,13 @@
+{
+  "title": "Це сторінка списку міст",
+  "filterButton": "ФІЛЬТР",
+  "idField": "ІД",
+  "cityNameField": "Назва Міста",
+  "countryIdField": "ІД Країни",
+  "cityPopulationField": "Населення Міста",
+  "cityAreaField": "Площа Міста",
+  "foundedAtField": "Рік Започаткування",
+  "languagesField": "Мови",
+  "createCityButton": "Створити Місто",
+  "pageSize": "Розмір Сторінки"
+}

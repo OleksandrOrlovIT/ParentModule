@@ -1,0 +1,19 @@
+{
+  "title": "City Details Page",
+  "cityNameField": "City Name",
+  "cityIdField": "ID",
+  "countryIdField": "Country ID",
+  "populationField": "City Population",
+  "areaField": "City Area",
+  "foundedAtField": "City Founded at",
+  "languagesField": "City Languages",
+  "returnButton": "RETURN",
+  "saveButton": "SAVE",
+  "cancelButton": "CANCEL",
+  "cityNameError": "City Name can't be empty.",
+  "countryIdError": "Country ID has to be a number and more then 0.",
+  "cityPopulationError": "Population has to be a number and more then 0.",
+  "cityAreaError": "Area has to be a number and more then 0.",
+  "foundedAtError": "Founded At has to be a number.",
+  "languagesError": "Languages have to be a list of languages seperated by comma with space."
+}

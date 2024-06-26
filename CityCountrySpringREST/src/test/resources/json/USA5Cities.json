@@ -1,0 +1,42 @@
+[
+  {
+    "cityName": "New York City",
+    "countryId": 2,
+    "cityPopulation": 8537673,
+    "cityArea": 468.9,
+    "foundedAt": "1624",
+    "languages": "English"
+  },
+  {
+    "cityName": "Los Angeles",
+    "countryId": 2,
+    "cityPopulation": 3979576,
+    "cityArea": 1302,
+    "foundedAt": "1781",
+    "languages": "English, Spanish"
+  },
+  {
+    "cityName": "Chicago",
+    "countryId": 2,
+    "cityPopulation": 2693976,
+    "cityArea": 606.1,
+    "foundedAt": "1833",
+    "languages": "English"
+  },
+  {
+    "cityName": "Houston",
+    "countryId": 2,
+    "cityPopulation": 2320268,
+    "cityArea": 1659.7,
+    "foundedAt": "1837",
+    "languages": "English, Spanish"
+  },
+  {
+    "cityName": "Phoenix",
+    "countryId": 2,
+    "cityPopulation": 1680992,
+    "cityArea": 1340.6,
+    "foundedAt": "1868",
+    "languages": "English"
+  }
+]

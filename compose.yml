@@ -1,0 +1,144 @@
+version: '3.8'
+
+networks:
+  city-country-net:
+    driver: bridge
+
+volumes:
+  mongo-data:
+    driver: local
+
+services:
+  elasticsearch:
+    image: elasticsearch:8.6.1
+    container_name: elasticsearch
+    environment:
+      - discovery.type=single-node
+      - ES_JAVA_OPTS=-Xms1g -Xmx1g
+      - xpack.security.enabled=false
+    ports:
+      - "9200:9200"
+    networks:
+      - city-country-net
+    healthcheck:
+      test: curl -u elastic:elastic -s -f http://elasticsearch:9200/_cat/health >/dev/null || exit 1
+      interval: 30s
+      timeout: 10s
+      retries: 5
+    mem_limit: 1g
+
+  kibana:
+    image: kibana:8.6.1
+    container_name: kibana
+    ports:
+      - "5601:5601"
+    depends_on:
+      - elasticsearch
+    networks:
+      - city-country-net
+    mem_limit: 1g
+
+  rabbitmq:
+    image: rabbitmq:3-management
+    ports:
+      - "5672:5672"
+      - "15672:15672"
+    environment:
+      RABBITMQ_DEFAULT_USER: guest
+      RABBITMQ_DEFAULT_PASS: guest
+    networks:
+      - city-country-net
+    healthcheck:
+      test: rabbitmq-diagnostics -q ping
+      interval: 30s
+      timeout: 10s
+      retries: 5
+      start_period: 10s
+    mem_limit: 1g
+
+  postgres:
+    image: 'postgres:16.0'
+    restart: always
+    environment:
+      - POSTGRES_DB=city_country_postgres
+      - POSTGRES_USER=city_country_user
+      - POSTGRES_PASSWORD=mysecretpassword
+    ports:
+      - '5436:5432'
+    volumes:
+      - ./CityCountrySpringREST/src/main/resources/db/changelog/changes/schema.sql:/docker-entrypoint-initdb.d/schema.sql
+      - ./CityCountrySpringREST/src/main/resources/db/changelog/changes/populateCountries.sql:/docker-entrypoint-initdb.d/populateCountries.sql
+    networks:
+      - city-country-net
+    mem_limit: 1g
+
+  mongodb:
+    image: mongo:latest
+    container_name: crime_rate_mongodb
+    ports:
+      - '27017:27017'
+    environment:
+      MONGO_INITDB_DATABASE: crime-rate
+    volumes:
+      - mongo-data:/data/db
+    networks:
+      - city-country-net
+    mem_limit: 1g
+
+  spring-boot-app-1:
+    container_name: city_country_spring_boot
+    build:
+      context: ./CityCountrySpringREST
+      dockerfile: Dockerfile
+    ports:
+      - '8080:8080'
+    env_file:
+      - ./CityCountrySpringREST/.env
+    depends_on:
+      - postgres
+    environment:
+      - SERVER_PORT=8080
+      - SPRING_DATASOURCE_URL=jdbc:postgresql://postgres/city_country_postgres
+    networks:
+      - city-country-net
+    mem_limit: 1g
+
+  spring-boot-app-2:
+    container_name: city_country_email_sender
+    build:
+      context: ./CityCountryEmailSender
+      dockerfile: Dockerfile
+    env_file:
+      - ./CityCountryEmailSender/.env
+    depends_on:
+      elasticsearch:
+        condition: service_healthy
+      rabbitmq:
+          condition: service_healthy
+    networks:
+      - city-country-net
+    mem_limit: 1g
+
+  react-app:
+    container_name: react_app
+    build:
+      context: ./ModernFrontend
+      dockerfile: Dockerfile
+    ports:
+      - '3000:80'
+    networks:
+      - city-country-net
+    mem_limit: 1g
+
+  crime-rate-ts:
+    container_name: crime_rate_ts
+    build:
+      context: ./CrimeRateTS
+      dockerfile: Dockerfile
+    ports:
+      - '3050:3050'
+    depends_on:
+      - mongodb
+    networks:
+      - city-country-net
+    mem_limit: 1g

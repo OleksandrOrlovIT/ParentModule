@@ -1,0 +1,21 @@
+[
+  { "cityName": "ValidCity1", "countryId": 2, "cityPopulation": 100, "cityArea": 182.0, "foundedAt": "1256", "languages": "Ukrainian, English"},
+  { "cityName": "Kyiv", "countryId": 1, "cityPopulation": 2884000, "cityArea": 839, "foundedAt": "482", "languages": ["Ukrainian", "English"]},
+
+
+  { "cityName": "Kharkiv", "countryId": 1, "cityPopulation": 1431000, "cityArea": 350, "foundedAt": "1654", "languages": ["Ukrainian", "English"]},
+
+  \n
+  { "cityName": "Odesa", "countryId": 1, "cityPopulation": 1015000, "cityArea": 236, "foundedAt": "1794", "languages": ["Ukrainian", "English"]},
+
+  {} some text {, {},
+  { "cityName": "Dnipro", "countryId": 1, "cityPopulation": 1000000, "cityArea": 405, "foundedAt": "1776", "languages": ["Ukrainian", "English"]},
+
+  { "cityName": "ValidCity2", "countryId": 3, "cityPopulation": 100, "cityArea": 182.0, "foundedAt": "1256", "languages": "Ukrainian, English"},
+  { "cityName": "Lviv", "countryId": 1, "cityPopulation": 723000, "cityArea": 182, "foundedAt": "1256", "languages": ["Ukrainian", "English"]}
+  Invalid JSON Object: "cityName": "SomeCity", "countryId": 1, "cityPopulation": "Invalid", "cityArea": "Invalid", "foundedAt": "Invalid", "languages": ["Ukrainian", "English"]
+  { "cityName": "InvalidCity", "countryId": 1, "cityPopulation": "Invalid", "cityArea": "Invalid", "foundedAt": "Invalid", "languages": ["Ukrainian", "English"]
+  { "cityName": "BrokenCity", "countryId": 1, "cityPopulation": "Invalid", "cityArea": 182, "foundedAt": "1256", "languages": ["Ukrainian", "English"]},
+
+  { "cityName": "ValidCity3", "countryId": 1, "cityPopulation": 100, "cityArea": 182.0, "foundedAt": "1256", "languages": "Ukrainian, English"}
+]

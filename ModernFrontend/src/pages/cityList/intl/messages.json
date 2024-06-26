@@ -1,0 +1,13 @@
+{
+  "title": "This is a city-list page",
+  "filterButton": "FILTER",
+  "idField": "ID",
+  "cityNameField": "City Name",
+  "countryIdField": "Country ID",
+  "cityPopulationField": "City Population",
+  "cityAreaField": "City Area",
+  "foundedAtField": "Founded At",
+  "languagesField": "Languages",
+  "createCityButton": "Create City",
+  "pageSize": "Page Size"
+}
