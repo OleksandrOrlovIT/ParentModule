@@ -6,4 +6,4 @@ Docker images is in docker hub
 
 ![image](https://github.com/OleksandrOrlovIT/ParentModule/assets/86959421/8cfe5bf5-9c5a-4ad9-9685-eb8957be9d36)
 
-Microsoft Azure uses them and docker compose to run on https://microservicesapplication.azurewebsites.net/
+Microsoft Azure uses them and docker compose to run on http://microservicesapplication.azurewebsites.net/
