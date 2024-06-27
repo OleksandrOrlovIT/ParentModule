@@ -1,0 +1,76 @@
+version: '3.8'
+
+networks:
+  city-country-net:
+    driver: bridge
+
+services:
+  city_country_spring_boot:
+    image: oleksandrorlov/city_country_spring_boot:latest
+    container_name: city_country_spring_boot
+    build:
+      context: ./CityCountrySpringREST
+      dockerfile: Dockerfile
+    ports:
+      - '8090:8090'
+    env_file:
+      - ./CityCountrySpringREST/.env
+    environment:
+      - SERVER_PORT=8090
+      - SPRING_DATASOURCE_URL=jdbc:postgresql://postgres/city_country_postgres
+    networks:
+      - city-country-net
+    mem_limit: 1g
+
+  city_country_email_sender:
+    image: oleksandrorlov/city_country_email_sender:latest
+    container_name: city_country_email_sender
+    build:
+      context: CityCountryEmailSenderV2
+      dockerfile: Dockerfile
+    env_file:
+      - CityCountryEmailSenderV2/.env
+    networks:
+      - city-country-net
+    mem_limit: 1g
+
+  react-app:
+    image: oleksandrorlov/react-app:latest
+    container_name: react_app
+    build:
+      context: ./ModernFrontend
+      dockerfile: Dockerfile
+    ports:
+      - '3000:80'
+    networks:
+      - city-country-net
+    mem_limit: 1g
+
+  crime-rate-ts:
+    image: oleksandrorlov/crime-rate-ts:latest
+    container_name: crime_rate_ts
+    build:
+      context: ./CrimeRateTS
+      dockerfile: Dockerfile
+    ports:
+      - '3050:3050'
+    networks:
+      - city-country-net
+    mem_limit: 1g
+
+  spring-gateway:
+    image: oleksandrorlov/spring-gateway:latest
+    container_name: spring_gateway
+    build:
+      context: ./BackendGateway
+      dockerfile: Dockerfile
+    ports:
+      - '8080:8080'
+    networks:
+      - city-country-net
+    depends_on:
+      - city_country_spring_boot
+      - city_country_email_sender
+      - react-app
+      - crime-rate-ts
+    mem_limit: 1g
