@@ -4,9 +4,6 @@ FROM maven:3.8.4-openjdk-17 as builder
 # Set the working directory inside the container
 WORKDIR /app
 
-# Copy the environment file to the working directory
-COPY .env /app/.env
-
 # Copy the entire project to the working directory
 COPY . /app/.
 
@@ -18,9 +15,6 @@ FROM eclipse-temurin:17-jre-alpine
 
 # Set the working directory inside the container
 WORKDIR /app
-
-# Copy the environment file from the builder stage to the runtime stage
-COPY --from=builder /app/.env /app/.env
 
 # Copy the built JAR file from the builder stage to the runtime stage
 COPY --from=builder /app/target/*.jar /app/app.jar

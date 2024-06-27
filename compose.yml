@@ -91,13 +91,13 @@ services:
       context: ./CityCountrySpringREST
       dockerfile: Dockerfile
     ports:
-      - '8080:8080'
+      - '8090:8090'
     env_file:
       - ./CityCountrySpringREST/.env
     depends_on:
       - postgres
     environment:
-      - SERVER_PORT=8080
+      - SERVER_PORT=8090
       - SPRING_DATASOURCE_URL=jdbc:postgresql://postgres/city_country_postgres
     networks:
       - city-country-net
@@ -141,4 +141,20 @@ services:
       - mongodb
     networks:
       - city-country-net
+    mem_limit: 1g
+
+  spring-gateway:
+    container_name: spring_gateway
+    build:
+      context: ./BackendGateway
+      dockerfile: Dockerfile
+    ports:
+      - '8080:8080'
+    networks:
+      - city-country-net
+    depends_on:
+      - spring-boot-app-1
+      - spring-boot-app-2
+      - react-app
+      - crime-rate-ts
     mem_limit: 1g
